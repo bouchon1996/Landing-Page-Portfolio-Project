@@ -12,10 +12,9 @@ body {
     background-color: #1f2937;
 }
 
-.header svg {
-    display: flex;
-    border: solid black;
-    opacity: 0.33;
+.header p{
+    font-size: 24px;
+    color: #F9FAF8;
 }
 
 .header-links {
@@ -26,37 +25,42 @@ body {
     gap: 10px;
     margin-right: 60px;
     align-items: center;
+    font-size: 18px;
 }
 
 
 a {
     list-style-type: none;
     text-decoration: none;
-    color: rgb(121, 120, 120);
+    color: #E5E7EB;
 }
 
 .banner {
     display: flex;
     border: solid black;
     background-color: #1f2937;
+    justify-content: center;
 }
 
 .banner-left {
     display: flex;
     border: solid black;
     flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .big-text {
     font-weight: 900;
     color: #F9FAF8;
     font-size: 48px;
+    flex-wrap: wrap;
 }
 
 .little-text {
     font-size: 18px;
-    color: #F9FAF8;
+    color: #E5E7EB;
     font-weight: 400;
+    flex-wrap: wrap;
 }
 
 .banner img {
@@ -64,4 +68,26 @@ a {
     border: solid black;
     height: 400px;
     width: auto;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    border: solid green;
+}
+
+.images {
+    display: flex;
+    flex-wrap: wrap;
+    border: solid black;
+}
+
+.ad {
+    display: flex;
+    border: solid yellow;
+    background-color: #3882F6;
+}
+
+.ad button {
+    color: #3882F6;
 }
