@@ -158,12 +158,27 @@ a {
 }
 
 .ad-left {
+    color: #E5E7EB;
 }
 
 .ad button {
-    color: #3882F6;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border: solid  #E5E7EB;
     height: 40px;
     width: 80px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.ad .big-text {
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.ad .little-text {
+    font-size: 28px;
 }
 
 .footer {
