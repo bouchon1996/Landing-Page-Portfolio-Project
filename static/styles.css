@@ -8,6 +8,14 @@ body {
     display: flex;
     justify-content: space-between;
     border: solid red;
+    flex-direction: row;
+    background-color: #1f2937;
+}
+
+.header svg {
+    display: flex;
+    border: solid black;
+    opacity: 0.33;
 }
 
 .header-links {
@@ -15,10 +23,45 @@ body {
     border: solid black;
     list-style-type: none;
     justify-content: flex-end;
+    gap: 10px;
+    margin-right: 60px;
+    align-items: center;
 }
 
 
 a {
     list-style-type: none;
     text-decoration: none;
+    color: rgb(121, 120, 120);
+}
+
+.banner {
+    display: flex;
+    border: solid black;
+    background-color: #1f2937;
+}
+
+.banner-left {
+    display: flex;
+    border: solid black;
+    flex-direction: column;
+}
+
+.big-text {
+    font-weight: 900;
+    color: #F9FAF8;
+    font-size: 48px;
+}
+
+.little-text {
+    font-size: 18px;
+    color: #F9FAF8;
+    font-weight: 400;
+}
+
+.banner img {
+    display: flex;
+    border: solid black;
+    height: 400px;
+    width: auto;
 }
