@@ -1,10 +1,11 @@
 body * {
-    outline: 1px solid red;
+    
 }
 
 body {
     display: flex;
     flex-direction: column;
+    margin: 0px;
 }
 
 .header {
@@ -17,11 +18,11 @@ body {
 .header p{
     font-size: 24px;
     color: #F9FAF8;
+    padding-left: 50px;
 }
 
 .header-links {
     display: flex;
-    border: solid black;
     list-style-type: none;
     justify-content: flex-end;
     gap: 10px;
@@ -41,6 +42,7 @@ a {
     display: flex;
     background-color: #1f2937;
     justify-content: center;
+    padding-bottom: 50px;
 }
 
 .banner-left {
@@ -67,6 +69,7 @@ a {
     color: #E5E7EB;
     font-weight: 400;
     flex-wrap: wrap;
+    margin-top: -20px;
 }
 
 .banner img {
@@ -83,7 +86,9 @@ a {
 .info {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    outline: 1px solid red;
 }
 
 .info.random {
@@ -99,19 +104,25 @@ a {
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
+    outline: 1px solid red;
 }
 
 .images figure {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    width: 400px;
-    height: auto;
+    align-items: center;
+    max-width: 400px;
 }
 
 .images img {
-    width: auto;
     height: 300px;
+    border-radius: 25px;
+    outline: 1px lightblue;
+}
+
+.images figcaption, .images img {
+    width: auto;
 }
 
 .images figcaption {
@@ -144,6 +155,8 @@ a {
     background-color: #3882F6;
     justify-content: center;
     align-items: center;
+    margin: 50px 600px 50px 600px;
+    gap: 30px;
 }
 
 .ad-left {
