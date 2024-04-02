@@ -1,0 +1,24 @@
+body {
+    display: flex;
+    flex-direction: column;
+    border: solid black;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    border: solid red;
+}
+
+.header-links {
+    display: flex;
+    border: solid black;
+    list-style-type: none;
+    justify-content: flex-end;
+}
+
+
+a {
+    list-style-type: none;
+    text-decoration: none;
+}
