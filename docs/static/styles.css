@@ -1,5 +1,5 @@
 body * {
-    
+    outline: solid red 10px;
 }
 
 body {
@@ -53,7 +53,7 @@ a {
 }
 
 .banner-left .big-text, .banner-left .little-text {
-    width: 450px;
+    width: fit-content;
     text-align: left;
 }
 
@@ -75,7 +75,7 @@ a {
 .banner img {
     display: flex;
     height: 400px;
-    width: auto;
+    width: fit-content;
 }
 
 .banner button {
