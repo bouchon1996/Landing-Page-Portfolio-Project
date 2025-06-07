@@ -1,5 +1,5 @@
 body * {
-    outline: solid red 10px;
+
 }
 
 body {
@@ -42,6 +42,9 @@ a {
     display: flex;
     background-color: #1f2937;
     justify-content: center;
+    gap:35px;
+    padding-left: 30px;
+    padding-right: 30px;
     padding-bottom: 50px;
 }
 
@@ -49,12 +52,13 @@ a {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    align-items: flex-start;
+    align-items: center;
+    flex-basis: 500px;
+    flex-grow: 0;
 }
 
 .banner-left .big-text, .banner-left .little-text {
-    width: fit-content;
-    text-align: left;
+    text-align: center;
 }
 
 .banner-left .big-text {
@@ -75,7 +79,8 @@ a {
 .banner img {
     display: flex;
     height: 400px;
-    width: fit-content;
+    width: auto;
+    flex-grow: 0;
 }
 
 .banner button {
